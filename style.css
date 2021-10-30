@@ -13,13 +13,13 @@ html, body
     place-items: center;
     background: #8e44ad;
 }
-.wrapper
+.embrulho
 {
     position: relative;
     height: 55px;
     width: 320px;
 }
-.wrapper input
+.embrulho input
 {
     height: 100%;
     width: 100%;
@@ -29,11 +29,11 @@ html, body
     font-size: 18px;
     border-radius: 5px;
 }
-.wrapper input:valid ~ span
+.embrulho input:valid ~ span
 {
     display: block;
 }
-.wrapper span
+.embrulho span
 {
     position: absolute;
     right: 15px;
@@ -44,7 +44,7 @@ html, body
     cursor: pointer;
     display: none;
 }
-.wrapper span i.hide-btn::before
+.embrulho span i.ocultar-botao:before
 {
     content: "\f070";
 }

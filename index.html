@@ -9,7 +9,7 @@
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     </head>
     <body>
-        <div class="wrapper">
+        <div class="embrulho">
             <input type="password" placeholder="Digite sua senha" required>
             <span>
                 <i class="fas fa-eye"></i>
@@ -23,12 +23,12 @@
                 if(campoSenha.type === "password")
                 {
                     campoSenha.type = "text";
-                    botao.classList.add("hide-btn");
+                    botao.classList.add("ocultar-botao");
                 }
                 else
                 {
                     campoSenha.type = "password";
-                    botao.classList.remove("hide-btn");
+                    botao.classList.remove("ocultar-botao");
                 }
             }
         </script>
